@@ -2,5 +2,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3308/weather?serverTimezone=UTC&characterEncoding=UTF-8
-    password: 1q2w3e4r!
     username: root
+    password: 1q2w3e4r!
+  jpa:
+    show-sql: true # ????? ??? ??? ??? ??
+    database: mysql
