@@ -1,0 +1,19 @@
+###
+POST http://localhost:8080/diary?date=2024-01-22
+Content-Type: text/plain
+
+"tes4"
+
+###
+GET http://localhost:8080/diary?date=2024-01-31
+
+###
+GET http://localhost:8080/diaries?startDate=2024-01-20&endDate=2024-01-31
+
+###
+PUT http://localhost:8080/diary?date=2024-01-31
+
+"수정1"
+
+###
+DELETE http://localhost:8080/diary?date=2024-01-31
