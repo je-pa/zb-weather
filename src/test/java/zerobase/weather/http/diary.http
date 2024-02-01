@@ -1,5 +1,5 @@
 ###
-POST http://localhost:8080/diary?date=2024-01-22
+POST http://localhost:8080/diary?date=2024-01-23
 Content-Type: text/plain
 
 "tes4"
