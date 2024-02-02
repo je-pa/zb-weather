@@ -9,3 +9,5 @@ spring:
     database: mysql
 openweathermap:
   key: 371705b1d38c6b127e2080b5dc869432
+logging:
+  config: classpath:logback-spring.xml
