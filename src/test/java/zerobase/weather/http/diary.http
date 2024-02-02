@@ -1,17 +1,16 @@
 ###
-POST http://localhost:8080/diary?date=2024-01-23
-Content-Type: text/plain
+POST http://localhost:8080/diary?date=2024-01-21
 
-"tes4"
+"Name"
 
 ###
-GET http://localhost:8080/diary?date=2024-01-31
+GET http://localhost:8080/diary?date=4000-01-31
 
 ###
 GET http://localhost:8080/diaries?startDate=2024-01-20&endDate=2024-01-31
 
 ###
-PUT http://localhost:8080/diary?date=2024-01-31
+PUT http://localhost:8080/diary?date=2024-01-25
 
 "수정1"
 
