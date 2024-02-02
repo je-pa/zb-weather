@@ -35,7 +35,7 @@ public class DiaryController {
     @GetMapping("/diaries")
     List<Diary> readDiaries(
             @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) @Parameter(description = "조회할 기간의 시작 날짜", example = "2024-01-01") LocalDate startDate
-            , @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) @Parameter(description = "조회할 기간의 마지막 날짜", example = "2023-01-30") LocalDate endDate
+            , @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) @Parameter(description = "조회할 기간의 마지막 날짜", example = "2024-01-30") LocalDate endDate
     ){
         return diaryService.readDiaries(startDate, endDate);
     }
